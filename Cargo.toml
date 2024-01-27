@@ -4,4 +4,37 @@ version = "0.1.0"
 edition = "2021"
 
 
-[dependencies]
+
+[dependencies.tokio]
+version = "1.35.1"
+features = ["full"]
+
+[dependencies.axum]
+version = "0.7.4"
+
+[dependencies.base64]
+version = "0.21.7"
+
+
+[dependencies.sha1]
+version = "0.10.6"
+
+[dependencies.rsa]
+version = "0.9.6"
+features = ["pem", "sha1", "pkcs5", "std"]
+
+
+[dependencies.serde]
+version = "1.0.196"
+features = ["derive"]
+
+[dependencies.serde_json]
+version = "1.0.112"
+
+
+[dependencies.tower]
+version = "0.4.13"
+
+[dependencies.tower-http]
+version = "0.5.1"
+
