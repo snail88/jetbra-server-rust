@@ -5,12 +5,9 @@ edition = "2021"
 
 
 
-[dependencies.tokio]
-version = "1.35.1"
-features = ["full"]
 
-[dependencies.axum]
-version = "0.7.4"
+[dependencies.actix-web]
+version = "4.4.1"
 
 [dependencies.base64]
 version = "0.21.7"
@@ -32,9 +29,11 @@ features = ["derive"]
 version = "1.0.112"
 
 
-[dependencies.tower]
-version = "0.4.13"
+[dependencies.x509-parser]
+version = "0.15.1"
 
-[dependencies.tower-http]
-version = "0.5.1"
+[dependencies.rand]
+version = "0.8.1"
 
+[dependencies.mime]
+ version= "0.3.17"
