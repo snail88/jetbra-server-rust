@@ -36,3 +36,9 @@ version = "0.8.1"
 
 [dependencies.mime]
  version= "0.3.17"
+
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1
