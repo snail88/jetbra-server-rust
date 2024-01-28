@@ -65,7 +65,7 @@ async fn main() -> std::io::Result<()> {
             .route("/images/icons.svg", web::get().to(|| async { HttpResponse::Ok().content_type(mime::IMAGE_SVG).body(ICONS) }))
             .route("/generateLicense", web::post().to(generate_license))
     })
-        .bind(("127.0.0.1", 3000))?
+        .bind(("127.0.0.1", 8080))?
         .run()
         .await
 }
