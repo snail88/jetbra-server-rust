@@ -2,8 +2,7 @@
 name = "jetbra-server"
 version = "0.1.0"
 edition = "2021"
-
-
+authors = ["novice88"]
 
 
 [dependencies.actix-web]
