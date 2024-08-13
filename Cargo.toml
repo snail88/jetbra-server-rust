@@ -37,6 +37,8 @@ version = "0.8.1"
 [dependencies.mime]
  version= "0.3.17"
 
+[dependencies.time]
+ version= "0.3.36"
 
 [profile.release]
 lto = true
